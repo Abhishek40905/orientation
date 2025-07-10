@@ -8,7 +8,7 @@ function sendData() {
     console.log(user_id);
     return;
   }
-  fetch('http://localhost:3000/input-data', {
+  fetch('https://orientation-backend.onrender.com/input-data', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
